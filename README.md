@@ -1,6 +1,8 @@
 # AwesomeTemplate
 **AwesomeTemplate**, by [oskikiboy](https://oskikiboy.me).
 
+[![Discord Server](https://discordapp.com/api/guilds/352051057486069770/embed.png)](http://discord.io/Horizon-Community)
+
 *A simple* **HTML** *website generator.* *Powered by* ***Jekyll***
 
 ---
@@ -22,5 +24,19 @@ icon: '/assets/img/icon.png'
 meta-icon: '/assets/img/icon.png'
 ```
 4. Change to the desired settings &amp; remember to follow the same format.
+      >Settings with double quotes cannot have HTML content in them, but ones with single quotes can.
 
-      Settings with doublequotes cannot have HTML content in them but ones with single quotes can.
+## Found an error?
+
+***You can either***:
+
+   * Fork the repository, fix it and then make a merge request :D
+   
+   or
+   
+   * You can make an issue on the official repository!
+
+## Support me!
+
+* [Patreon](https://patreon.com/oskikiboy)
+* [Discord](http://discord.io/Horizon-Community)
