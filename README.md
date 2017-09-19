@@ -15,7 +15,6 @@
 ```yaml
 name: 'Awesome<span style="font-weight:300;">Template</span>'
 meta-name: 'AwesomeTemplate'
-name-is-one-word: true
 description: 'A template to start everyone off with a cool site!'
 url: 'https://oskikiboy.me/AwesomeTemplate'
 keywords: 'cool, Awesome, Jekyll, HTML, template, easy, github'
