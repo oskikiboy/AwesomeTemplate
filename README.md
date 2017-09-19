@@ -30,7 +30,7 @@ meta-icon: '/assets/img/icon.png'
 
 ***You can either***:
 
-   * Fork the repository, fix it and then make a merge request :D
+   * Fork the repository, fix the issue and then make a merge request :D
    
    or
    
