@@ -1,0 +1,39 @@
+---
+layout: main
+title: AwesomeTemplate
+---
+<style>
+    .diamond {
+        border: 1.5px solid #3273dc;
+        margin-top: -0.2em;
+        transform: rotate(-45deg);
+        content: " ";
+        display: block;
+        pointer-events: none;
+        /*position: absolute;*/
+        width: 20px;
+        height: 20px;
+        margin: 10px auto;
+    }
+</style>
+<section class="hero is-info is-fullheight">
+    <div class="hero-head">
+        <nav class="navbar is-dark">
+            <div class="container">
+                <span class="navbar-brand">
+                    <span class="navbar-item" style="font-family: Comfortaa">
+                        <span class="diamond"></span>
+                        &nbsp;
+                        {{site.name}}
+                    </span>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-1" style="font-family: Comfortaa">{{site.name}}</h1>
+            <h1 class="subtitle is-3" style="font-weight: 300">{{site.description}}</h1>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Compatability Metadata -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Site name Metadata -->
+        <title>{{site.name}} &bull; {{site.description}}</title>
+
+        <meta name="name" content="{{site.name}}">
+        <meta name="description" content="{{site.description}}">
+        <meta name="theme-color" content="#fff">
+
+        <!-- Ownership  Metadata -->
+        <meta name="author" content="oskikiboy">
+        <meta name='designer' content='oskikiboy'>
+        <meta name='owner' content='oskikiboy'>
+
+        <!-- Search Engine Optimisation Metadata -->
+        <meta name='keywords' content='{{site.keywords}}'>
+        <meta name='Classification' content='{{site.class}}'>
+        <meta name="url" content="{{site.url}}">
+        <meta name='identifier-URL' content='{{site.url}}'>
+
+        <!-- Icons Metadata -->
+        <link rel='shortcut icon' type='image/png' href='{{site.url}}{{site.icon}}'>
+        <link rel='fluid-icon' type='image/png' href='{{site.url}}{{site.icon}}'>
+        <link rel='logo' type='image/png' href='{{site.url}}{{site.icon}}'>
+        <link rel='image_src' type='image/png' href='{{site.url}}{{site.icon}}'>
+        <meta name="image" content="{{site.url}}{{site.icon}}">
+        <meta name="twitter:image:src" content="{{site.url}}{{site.icon}}">
+        <meta property="og:image" content="{{site.url}}{{site.icon}}">
+
+        <!-- Twiiter Metadata -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="{{site.name}}">
+        <meta name="twitter:description" content="{{site.description}}">
+
+        <!-- Open Graph Metadata -->
+        <meta property="og:title" content="{{site.name}}">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{site.url}}">
+        <meta property="og:description" content="{{site.description}}">
+        <meta property="og:site_name" content="{{site.name}}">
+
+        <!-- Web Resources -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <link rel="stylesheet" href="assets/css/bulma.css">
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>
