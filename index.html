@@ -18,10 +18,12 @@ title: AwesomeTemplate
     </div>
     <div class="hero-body">
         <div class="container has-text-centered">
-            <h1 class="title is-1 is-hidden-mobile" style="font-family: Comfortaa">{{site.name}}</h1>
             {% if site.name-is-one-word %}
+            <h1 class="title is-1 is-hidden-mobile" style="font-family: Comfortaa">{{site.name}}</h1>
             <h1 class="title is-2 is-hidden-tablet" style="font-family: Comfortaa">Awesome</h1>
             <h1 class="title is-3 is-hidden-tablet" style="font-family: Comfortaa;margin-top: -1.5rem;">Template</h1>
+            {% else %}
+            <h1 class="title is-1" style="font-family: Comfortaa">{{site.name}}</h1>
             {% endif %}
             <h1 class="subtitle is-3" style="font-weight: 300">{{site.description}}</h1>
         </div>
